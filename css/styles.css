@@ -376,6 +376,9 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
+.btn:hover {
+  background: #6ae2fc;
+}
 
 .default {
   background-color: #51ddfc;

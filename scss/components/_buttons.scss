@@ -10,6 +10,10 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+
+  &:hover {
+    background: lighten(#51ddfc, 5%);
+  }
 }
 
 .default {
