@@ -7,3 +7,17 @@ $green: #63cc82;
 
 //media breakpoint variable
 $brkpnt: 768px;
+
+//display image variable
+
+$dis: block;
+
+//map of button backgrounds
+
+$btnbk: (
+    'default': $blue,
+    'error': $coral,
+    'info': $purple,
+    'success': $green,
+    'warning': $coral,
+);
