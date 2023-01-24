@@ -2,13 +2,11 @@
 /*              Buttons                          */
 /* ============================================= */
 
-@each $color in $btnbk #{$button} {
-  .btn &.#{$button} {
-    background-color: $color;
-  }
+.btn {
+  background-color: map-get($btnbk, default);
 
   &:hover {
-    background: lighten($color, 15%);
+    background: lighten(map-get($btnbk, default), 15%);
   }
 }
 
@@ -22,7 +20,7 @@
   border-radius: 5px;
 
   &:hover {
-    background: lighten($color, 15%);
+    background: lighten(map-get($btnbk, default), 15%);
   }
 }
 
