@@ -8,10 +8,6 @@ $green: #63cc82;
 //media breakpoint variable
 $brkpnt: 768px;
 
-//display image variable
-
-$dis: block;
-
 //map of button backgrounds
 
 $btnbk: (
@@ -22,6 +18,10 @@ $btnbk: (
     'warning': $coral,
 );
 
-// Margin variable
-
-$margin: 10px auto auto;
+//btn colour list test
+$colors: (
+    #58e1c1,
+    #e4757a,
+    #927bc1,
+    #63cc82
+);

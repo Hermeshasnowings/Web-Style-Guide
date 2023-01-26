@@ -3,14 +3,15 @@
 /* ============================================= */
 
 .btn {
-  background-color: map-get($btnbk, default);
+  @each $color in $colors {
+    background-color: $color;
 
-  &:hover {
-    background: lighten(map-get($btnbk, default), 15%);
+    &:hover {
+      background-color: lighten($color, 15%);
+    }
   }
-}
 
-.btn {
+
   margin-top: 15px;
   width: 100%;
   color: #fff;
@@ -19,9 +20,6 @@
   text-transform: uppercase;
   border-radius: 5px;
 
-  &:hover {
-    background: lighten(map-get($btnbk, default), 15%);
-  }
 }
 
 .default {
