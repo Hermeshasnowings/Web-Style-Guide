@@ -4,6 +4,7 @@ $blue: #58e1c1;
 $coral: #e4757a;
 $purple: #927bc1;
 $green: #63cc82;
+$red: #e4757a;
 
 //media breakpoint variable
 $brkpnt: 768px;
@@ -12,16 +13,8 @@ $brkpnt: 768px;
 
 $btnbk: (
     'default': $blue,
-    'error': $coral,
+    'error': $red,
     'info': $purple,
     'success': $green,
     'warning': $coral,
-);
-
-//btn colour list test
-$colors: (
-    #58e1c1,
-    #e4757a,
-    #927bc1,
-    #63cc82
 );
