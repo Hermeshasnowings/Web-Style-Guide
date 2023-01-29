@@ -6,10 +6,10 @@
 
   @include button;
 
-  @each $button,
+  @each $background,
   $color in $btnbk {
-    .btn#{
- $button
+    &.#{
+ $background
   }
 
     {
@@ -20,25 +20,4 @@
     }
   }
 }
-
-}
-
-.default {
-  background-color: #51ddfc;
-}
-
-.error {
-  background-color: $coral;
-}
-
-.info {
-  background-color: $purple;
-}
-
-.success {
-  background-color: $green;
-}
-
-.warning {
-  background-color: #fd7856;
 }

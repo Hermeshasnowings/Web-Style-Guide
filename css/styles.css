@@ -376,55 +376,35 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
-.btn .btndefault {
+.btn.default {
   background-color: #58e1c1;
 }
-.btn .btndefault:hover {
+.btn.default:hover {
   background-color: #99edd9;
 }
-.btn .btnerror {
+.btn.error {
   background-color: #e4757a;
 }
-.btn .btnerror:hover {
+.btn.error:hover {
   background-color: #f1b5b8;
 }
-.btn .btninfo {
+.btn.info {
   background-color: #927bc1;
 }
-.btn .btninfo:hover {
+.btn.info:hover {
   background-color: #bdafd9;
 }
-.btn .btnsuccess {
+.btn.success {
   background-color: #63cc82;
 }
-.btn .btnsuccess:hover {
+.btn.success:hover {
   background-color: #9ddfb0;
 }
-.btn .btnwarning {
+.btn.warning {
   background-color: #e4757a;
 }
-.btn .btnwarning:hover {
+.btn.warning:hover {
   background-color: #f1b5b8;
-}
-
-.default {
-  background-color: #51ddfc;
-}
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: #63cc82;
-}
-
-.warning {
-  background-color: #fd7856;
 }
 
 /* ============================================= */
