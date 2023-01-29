@@ -1,15 +1,9 @@
-//typography variables
-$fonts: 'Lato', sans-serif;
-$blckqte: 1.5em 300 italic;
-
-
-
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: $fonts;
     color: $grey;
     box-sizing: border-box;
 }
