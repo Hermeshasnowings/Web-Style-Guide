@@ -17,6 +17,7 @@
 
     &:hover {
       background-color: lighten($color, 15%);
+      @include transition();
     }
   }
 }
