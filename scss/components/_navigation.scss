@@ -18,44 +18,9 @@
     transition:
         background-color .2s ease-in-out,
         color .2s ease-in-out;
-}
 
-.nav-link:hover {
-    color: #fff;
-    background-color: #58e1c1;
-}
-
-
-/* ============================================= */
-/*              Buttons                          */
-/* ============================================= */
-
-.btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
-}
-
-.default {
-    background-color: #51ddfc;
-}
-
-.error {
-    background-color: $coral;
-}
-
-.info {
-    background-color: $purple;
-}
-
-.success {
-    background-color: $green;
-}
-
-.warning {
-    background-color: #fd7856;
+    &:hover {
+        color: #fff;
+        background-color: $blue;
+    }
 }
